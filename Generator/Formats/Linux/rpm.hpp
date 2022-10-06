@@ -1,0 +1,14 @@
+//
+// Created by i-use-gentoo-btw on 10/6/22.
+//
+
+#ifndef UNTITLEDPACKAGESCHEMEGENERATOR_RPM_HPP
+#define UNTITLEDPACKAGESCHEMEGENERATOR_RPM_HPP
+
+
+class rpm {
+
+};
+
+
+#endif //UNTITLEDPACKAGESCHEMEGENERATOR_RPM_HPP
