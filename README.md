@@ -12,7 +12,6 @@ Supported package formats are:
 1. Flatpaks
 1. RPMs
 1. Winget
-1. Windows Installer/MSI
 
 ## Installation and usage
 Instructions on how to use the software, as well as documentation can be found on the 
