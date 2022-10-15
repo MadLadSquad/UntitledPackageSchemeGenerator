@@ -3,6 +3,10 @@
 [![trello](https://img.shields.io/badge/Trello-UDE-blue])](https://trello.com/b/HmfuRY2K/untitleddesktop)
 [![Discord](https://img.shields.io/discord/717037253292982315.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/4wgH8ZE)
 
+> WARNING: This application is work in progress, if you're seeing this you're seeing the first commits
+that don't function entirely. If you want to contribute open an issue and we can discuss how to start development together
+as currently we don't have any platform, only documentation
+
 An application, which uses common installation information from for deployment on many packaging formats
 
 Supported package formats are:
