@@ -17,6 +17,9 @@ Supported package formats are:
 1. RPMs
 1. Winget
 
+Additonally we also use containers to test the results of your scripts,
+which allows you to see how your program is deployed in real time
+
 ## Installation and usage
 Instructions on how to use the software, as well as documentation can be found on the 
 [wiki](https://github.com/MadLadSquad/UntitledPackageSchemeGenerator/wiki)
