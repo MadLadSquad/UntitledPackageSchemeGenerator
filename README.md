@@ -7,18 +7,25 @@
 that don't function entirely. If you want to contribute open an issue and we can discuss how to start development together
 as currently we don't have any platform, only documentation
 
-An application, which uses common installation information from for deployment on many packaging formats
+An application, which uses common installation information for deployment of applications to different package managers
 
 Supported package formats are:
-1. DEBs
-1. Ebuilds for Gentoo and Funtoo(includes an autogen script)
-1. Pacman pkgbuilds
-1. Flatpaks
-1. RPMs
-1. Winget
+1. DEBs 🚧
+1. Ebuilds for Gentoo and Funtoo(includes an autogen script) 🚧
+1. Pacman pkgbuilds 🚧
+1. Void templates 🚧 
+1. Flatpaks 🚧
+1. RPMs 🚧
+1. Winget 🚧
 
-Additonally we also use containers to test the results of your scripts,
-which allows you to see how your program is deployed in real time
+Outside of the format we also use some other tooling to provide many useful features such as:
+1. A system to automatically find dependencies for your distribution using the [repology API](https://repology.org/)
+1. When used on Linux, we enable you to test if the package formats work by using containers powered by 
+[LXD](https://linuxcontainers.org/lxd/introduction/). On Windows, [WSL](https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux) is used to test 
+Linux packages
+1. We're CI/CD friendly and fully support templating in our files. Using these templates you can automate your deployment without having to hardcode
+versions, tarball URLs, releases and more
+1. We use standard naming for our packages so that they can instantly be deployed and indexed by automatic package updaters
 
 ## Installation and usage
 Instructions on how to use the software, as well as documentation can be found on the 
